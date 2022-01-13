@@ -21,7 +21,8 @@ namespace NetCoreMVCIntro.Controllers
 
         public IActionResult Index()
         {
-            
+            // JS Prototype ile yaptığımızın aynısını c# ile yaptık.
+
             "deneme".ToUpperCase();
             string date2 = DateTime.Now.GetPrettyDate();
             return View();
